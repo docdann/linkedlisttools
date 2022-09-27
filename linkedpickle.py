@@ -4,6 +4,7 @@
 import pickle
 import os.path
 
+
 class Node:
     def __init__(self, data):
         self.data = data
@@ -47,7 +48,7 @@ def main():
         with open("savedll.pkl", "rb") as f2:
             # opening the pickle file as f2
             unpickledll = pickle.load(f2)
-            if isinstance(unpickledll,LinkedList):
+            if isinstance(unpickledll, LinkedList):
                 # Checking if the object saved in savedll.pkl has the same type as LinkedList
                 print("linked list")
                 sll = unpickledll
