@@ -3,7 +3,7 @@ import time
 
 
 # Converts text file to linked list per word
-
+# displays word as vpython object
 
 class Node:
     def __init__(self, data):
